@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Find from "./components/Find/Find";
 import Driver from "./components/Driver/Driver";
+import Luxury from "./components/Luxury/Luxury";
 function App() {
   return (
     <div>
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Find />
       <Driver />
+      <Luxury />
     </div>
   );
 }
